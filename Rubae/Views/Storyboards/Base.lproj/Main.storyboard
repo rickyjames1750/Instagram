@@ -29,11 +29,11 @@
             </objects>
             <point key="canvasLocation" x="481" y="80"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="0LH-c7-Acg">
             <objects>
                 <navigationController id="Mx2-uP-pgG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UVC-Ti-km5"/>
+                    <tabBarItem key="tabBarItem" title="" image="homekit" catalog="system" id="UVC-Ti-km5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ekL-Ol-2er">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="-1010" y="1488"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore View Controller-->
         <scene sceneID="gV3-PK-cEV">
             <objects>
-                <viewController id="GJm-To-ezh" sceneMemberID="viewController">
+                <viewController id="GJm-To-ezh" customClass="ExploreViewController" customModule="Rubae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DxE-Xg-5A6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="-268" y="1488"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="vNZ-gJ-X0S">
             <objects>
-                <viewController id="66c-E8-Apf" sceneMemberID="viewController">
+                <viewController id="66c-E8-Apf" customClass="CameraViewController" customModule="Rubae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wet-ex-dkQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="480" y="1488"/>
         </scene>
-        <!--View Controller-->
+        <!--Notifications View Controller-->
         <scene sceneID="I9Q-Gd-zMZ">
             <objects>
-                <viewController id="MJh-Rt-hdD" sceneMemberID="viewController">
+                <viewController id="MJh-Rt-hdD" customClass="NotificationsViewController" customModule="Rubae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3O-e0-txL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1225" y="1488"/>
         </scene>
-        <!--View Controller-->
+        <!--Citizen View Controller-->
         <scene sceneID="CHJ-br-f8c">
             <objects>
-                <viewController id="rNr-5k-ulM" sceneMemberID="viewController">
+                <viewController id="rNr-5k-ulM" customClass="CitizenViewController" customModule="Rubae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dh5-57-Uqn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,11 +126,11 @@
             </objects>
             <point key="canvasLocation" x="1958" y="1488"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="v8X-tx-Y90">
             <objects>
                 <navigationController id="C35-0t-PXw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oLs-T8-Cf5"/>
+                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="oLs-T8-Cf5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UCY-m8-lOc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -196,6 +196,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
