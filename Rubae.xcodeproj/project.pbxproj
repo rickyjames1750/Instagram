@@ -17,6 +17,8 @@
 		6328034526E74F6B0053F05C /* RubaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328034426E74F6B0053F05C /* RubaeUITests.swift */; };
 		63F450FD26E95DF50018BC2E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F450FC26E95DF50018BC2E /* ExploreViewController.swift */; };
 		63F450FF26E960420018BC2E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F450FE26E960420018BC2E /* CameraViewController.swift */; };
+		63F4510126E961720018BC2E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510026E961720018BC2E /* NotificationsViewController.swift */; };
+		63F4510326E961A70018BC2E /* CitizenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510226E961A70018BC2E /* CitizenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		6328034626E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F450FC26E95DF50018BC2E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		63F450FE26E960420018BC2E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		63F4510026E961720018BC2E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		63F4510226E961A70018BC2E /* CitizenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				6328032626E74F690053F05C /* HomeViewController.swift */,
 				63F450FC26E95DF50018BC2E /* ExploreViewController.swift */,
 				63F450FE26E960420018BC2E /* CameraViewController.swift */,
+				63F4510026E961720018BC2E /* NotificationsViewController.swift */,
+				63F4510226E961A70018BC2E /* CitizenViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -307,7 +313,9 @@
 				63F450FD26E95DF50018BC2E /* ExploreViewController.swift in Sources */,
 				63F450FF26E960420018BC2E /* CameraViewController.swift in Sources */,
 				6328032726E74F690053F05C /* HomeViewController.swift in Sources */,
+				63F4510126E961720018BC2E /* NotificationsViewController.swift in Sources */,
 				6328032326E74F690053F05C /* AppDelegate.swift in Sources */,
+				63F4510326E961A70018BC2E /* CitizenViewController.swift in Sources */,
 				6328032526E74F690053F05C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
