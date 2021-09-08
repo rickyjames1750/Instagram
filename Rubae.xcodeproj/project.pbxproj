@@ -137,11 +137,7 @@
 		6328035226E751CF0053F05C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6328032626E74F690053F05C /* HomeViewController.swift */,
-				63F450FC26E95DF50018BC2E /* ExploreViewController.swift */,
-				63F450FE26E960420018BC2E /* CameraViewController.swift */,
-				63F4510026E961720018BC2E /* NotificationsViewController.swift */,
-				63F4510226E961A70018BC2E /* CitizenViewController.swift */,
+				63F4510426E962370018BC2E /* Core Tabs */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,6 +174,18 @@
 				6328032D26E74F6B0053F05C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63F4510426E962370018BC2E /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6328032626E74F690053F05C /* HomeViewController.swift */,
+				63F450FC26E95DF50018BC2E /* ExploreViewController.swift */,
+				63F450FE26E960420018BC2E /* CameraViewController.swift */,
+				63F4510026E961720018BC2E /* NotificationsViewController.swift */,
+				63F4510226E961A70018BC2E /* CitizenViewController.swift */,
+			);
+			path = "Core Tabs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
