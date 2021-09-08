@@ -15,6 +15,7 @@
 		6328032F26E74F6B0053F05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6328032D26E74F6B0053F05C /* LaunchScreen.storyboard */; };
 		6328033A26E74F6B0053F05C /* RubaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328033926E74F6B0053F05C /* RubaeTests.swift */; };
 		6328034526E74F6B0053F05C /* RubaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328034426E74F6B0053F05C /* RubaeUITests.swift */; };
+		63F450FD26E95DF50018BC2E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F450FC26E95DF50018BC2E /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6328034026E74F6B0053F05C /* RubaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6328034426E74F6B0053F05C /* RubaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubaeUITests.swift; sourceTree = "<group>"; };
 		6328034626E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F450FC26E95DF50018BC2E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6328032626E74F690053F05C /* HomeViewController.swift */,
+				63F450FC26E95DF50018BC2E /* ExploreViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F450FD26E95DF50018BC2E /* ExploreViewController.swift in Sources */,
 				6328032726E74F690053F05C /* HomeViewController.swift in Sources */,
 				6328032326E74F690053F05C /* AppDelegate.swift in Sources */,
 				6328032526E74F690053F05C /* SceneDelegate.swift in Sources */,
