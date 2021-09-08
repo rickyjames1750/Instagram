@@ -13,8 +13,8 @@
 		6328032A26E74F690053F05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6328032826E74F690053F05C /* Main.storyboard */; };
 		6328032C26E74F6B0053F05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6328032B26E74F6B0053F05C /* Assets.xcassets */; };
 		6328032F26E74F6B0053F05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6328032D26E74F6B0053F05C /* LaunchScreen.storyboard */; };
-		6328033A26E74F6B0053F05C /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328033926E74F6B0053F05C /* InstagramTests.swift */; };
-		6328034526E74F6B0053F05C /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328034426E74F6B0053F05C /* InstagramUITests.swift */; };
+		6328033A26E74F6B0053F05C /* RubaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328033926E74F6B0053F05C /* RubaeTests.swift */; };
+		6328034526E74F6B0053F05C /* RubaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328034426E74F6B0053F05C /* RubaeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6328031F26E74F690053F05C /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6328031F26E74F690053F05C /* Rubae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6328032226E74F690053F05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6328032426E74F690053F05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6328032626E74F690053F05C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		6328032B26E74F6B0053F05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6328032E26E74F6B0053F05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6328033026E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6328033526E74F6B0053F05C /* InstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6328033926E74F6B0053F05C /* InstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
+		6328033526E74F6B0053F05C /* RubaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6328033926E74F6B0053F05C /* RubaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubaeTests.swift; sourceTree = "<group>"; };
 		6328033B26E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6328034026E74F6B0053F05C /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6328034426E74F6B0053F05C /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
+		6328034026E74F6B0053F05C /* RubaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6328034426E74F6B0053F05C /* RubaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubaeUITests.swift; sourceTree = "<group>"; };
 		6328034626E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		6328031626E74F680053F05C = {
 			isa = PBXGroup;
 			children = (
-				6328032126E74F690053F05C /* Instagram */,
-				6328033826E74F6B0053F05C /* InstagramTests */,
-				6328034326E74F6B0053F05C /* InstagramUITests */,
+				6328032126E74F690053F05C /* Rubae */,
+				6328033826E74F6B0053F05C /* RubaeTests */,
+				6328034326E74F6B0053F05C /* RubaeUITests */,
 				6328032026E74F690053F05C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		6328032026E74F690053F05C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6328031F26E74F690053F05C /* Instagram.app */,
-				6328033526E74F6B0053F05C /* InstagramTests.xctest */,
-				6328034026E74F6B0053F05C /* InstagramUITests.xctest */,
+				6328031F26E74F690053F05C /* Rubae.app */,
+				6328033526E74F6B0053F05C /* RubaeTests.xctest */,
+				6328034026E74F6B0053F05C /* RubaeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6328032126E74F690053F05C /* Instagram */ = {
+		6328032126E74F690053F05C /* Rubae */ = {
 			isa = PBXGroup;
 			children = (
 				6328035526E752500053F05C /* Resources */,
@@ -105,25 +105,25 @@
 				6328035226E751CF0053F05C /* Controllers */,
 				6328033026E74F6B0053F05C /* Info.plist */,
 			);
-			path = Instagram;
+			path = Rubae;
 			sourceTree = "<group>";
 		};
-		6328033826E74F6B0053F05C /* InstagramTests */ = {
+		6328033826E74F6B0053F05C /* RubaeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6328033926E74F6B0053F05C /* InstagramTests.swift */,
+				6328033926E74F6B0053F05C /* RubaeTests.swift */,
 				6328033B26E74F6B0053F05C /* Info.plist */,
 			);
-			path = InstagramTests;
+			path = RubaeTests;
 			sourceTree = "<group>";
 		};
-		6328034326E74F6B0053F05C /* InstagramUITests */ = {
+		6328034326E74F6B0053F05C /* RubaeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6328034426E74F6B0053F05C /* InstagramUITests.swift */,
+				6328034426E74F6B0053F05C /* RubaeUITests.swift */,
 				6328034626E74F6B0053F05C /* Info.plist */,
 			);
-			path = InstagramUITests;
+			path = RubaeUITests;
 			sourceTree = "<group>";
 		};
 		6328035226E751CF0053F05C /* Controllers */ = {
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6328031E26E74F690053F05C /* Instagram */ = {
+		6328031E26E74F690053F05C /* Rubae */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6328034926E74F6B0053F05C /* Build configuration list for PBXNativeTarget "Instagram" */;
+			buildConfigurationList = 6328034926E74F6B0053F05C /* Build configuration list for PBXNativeTarget "Rubae" */;
 			buildPhases = (
 				6328031B26E74F690053F05C /* Sources */,
 				6328031C26E74F690053F05C /* Frameworks */,
@@ -183,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = Instagram;
+			name = Rubae;
 			productName = Instagram;
-			productReference = 6328031F26E74F690053F05C /* Instagram.app */;
+			productReference = 6328031F26E74F690053F05C /* Rubae.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6328033426E74F6B0053F05C /* InstagramTests */ = {
+		6328033426E74F6B0053F05C /* RubaeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6328034C26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "InstagramTests" */;
+			buildConfigurationList = 6328034C26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "RubaeTests" */;
 			buildPhases = (
 				6328033126E74F6B0053F05C /* Sources */,
 				6328033226E74F6B0053F05C /* Frameworks */,
@@ -201,14 +201,14 @@
 			dependencies = (
 				6328033726E74F6B0053F05C /* PBXTargetDependency */,
 			);
-			name = InstagramTests;
+			name = RubaeTests;
 			productName = InstagramTests;
-			productReference = 6328033526E74F6B0053F05C /* InstagramTests.xctest */;
+			productReference = 6328033526E74F6B0053F05C /* RubaeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6328033F26E74F6B0053F05C /* InstagramUITests */ = {
+		6328033F26E74F6B0053F05C /* RubaeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6328034F26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "InstagramUITests" */;
+			buildConfigurationList = 6328034F26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "RubaeUITests" */;
 			buildPhases = (
 				6328033C26E74F6B0053F05C /* Sources */,
 				6328033D26E74F6B0053F05C /* Frameworks */,
@@ -219,9 +219,9 @@
 			dependencies = (
 				6328034226E74F6B0053F05C /* PBXTargetDependency */,
 			);
-			name = InstagramUITests;
+			name = RubaeUITests;
 			productName = InstagramUITests;
-			productReference = 6328034026E74F6B0053F05C /* InstagramUITests.xctest */;
+			productReference = 6328034026E74F6B0053F05C /* RubaeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6328031A26E74F680053F05C /* Build configuration list for PBXProject "Instagram" */;
+			buildConfigurationList = 6328031A26E74F680053F05C /* Build configuration list for PBXProject "Rubae" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6328031E26E74F690053F05C /* Instagram */,
-				6328033426E74F6B0053F05C /* InstagramTests */,
-				6328033F26E74F6B0053F05C /* InstagramUITests */,
+				6328031E26E74F690053F05C /* Rubae */,
+				6328033426E74F6B0053F05C /* RubaeTests */,
+				6328033F26E74F6B0053F05C /* RubaeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6328033A26E74F6B0053F05C /* InstagramTests.swift in Sources */,
+				6328033A26E74F6B0053F05C /* RubaeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6328034526E74F6B0053F05C /* InstagramUITests.swift in Sources */,
+				6328034526E74F6B0053F05C /* RubaeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		6328033726E74F6B0053F05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6328031E26E74F690053F05C /* Instagram */;
+			target = 6328031E26E74F690053F05C /* Rubae */;
 			targetProxy = 6328033626E74F6B0053F05C /* PBXContainerItemProxy */;
 		};
 		6328034226E74F6B0053F05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6328031E26E74F690053F05C /* Instagram */;
+			target = 6328031E26E74F690053F05C /* Rubae */;
 			targetProxy = 6328034126E74F6B0053F05C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,12 +478,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_FILE = Rubae/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.Rubae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,12 +497,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_FILE = Rubae/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.Rubae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,18 +516,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = InstagramTests/Info.plist;
+				INFOPLIST_FILE = RubaeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.InstagramTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.RubaeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram.app/Instagram";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubae.app/Rubae";
 			};
 			name = Debug;
 		};
@@ -538,18 +538,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = InstagramTests/Info.plist;
+				INFOPLIST_FILE = RubaeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.InstagramTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.RubaeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram.app/Instagram";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubae.app/Rubae";
 			};
 			name = Release;
 		};
@@ -559,17 +559,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = InstagramUITests/Info.plist;
+				INFOPLIST_FILE = RubaeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.InstagramUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.RubaeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Instagram;
+				TEST_TARGET_NAME = Rubae;
 			};
 			name = Debug;
 		};
@@ -579,24 +579,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27CG529J7M;
-				INFOPLIST_FILE = InstagramUITests/Info.plist;
+				INFOPLIST_FILE = RubaeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.InstagramUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyjsparks.RubaeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Instagram;
+				TEST_TARGET_NAME = Rubae;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6328031A26E74F680053F05C /* Build configuration list for PBXProject "Instagram" */ = {
+		6328031A26E74F680053F05C /* Build configuration list for PBXProject "Rubae" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6328034726E74F6B0053F05C /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6328034926E74F6B0053F05C /* Build configuration list for PBXNativeTarget "Instagram" */ = {
+		6328034926E74F6B0053F05C /* Build configuration list for PBXNativeTarget "Rubae" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6328034A26E74F6B0053F05C /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6328034C26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
+		6328034C26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "RubaeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6328034D26E74F6B0053F05C /* Debug */,
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6328034F26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "InstagramUITests" */ = {
+		6328034F26E74F6B0053F05C /* Build configuration list for PBXNativeTarget "RubaeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6328035026E74F6B0053F05C /* Debug */,
