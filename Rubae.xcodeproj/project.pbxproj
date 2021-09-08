@@ -23,6 +23,12 @@
 		63F4510A26E963DB0018BC2E /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510926E963DB0018BC2E /* RegistrationViewController.swift */; };
 		63F4510C26E964170018BC2E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510B26E964170018BC2E /* PostViewController.swift */; };
 		63F4510E26E964470018BC2E /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510D26E964470018BC2E /* EditProfileViewController.swift */; };
+		63F4511026E9651C0018BC2E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4510F26E9651C0018BC2E /* SettingsViewController.swift */; };
+		63F4511226E965290018BC2E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4511126E965290018BC2E /* ListViewController.swift */; };
+		63F4511426E965550018BC2E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4511326E965550018BC2E /* SearchViewController.swift */; };
+		63F4511626E965840018BC2E /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4511526E965840018BC2E /* SearchResultViewController.swift */; };
+		63F4511826E965AC0018BC2E /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4511726E965AC0018BC2E /* PostEditorViewController.swift */; };
+		63F4511A26E965D50018BC2E /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4511926E965D50018BC2E /* PublishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		63F4510926E963DB0018BC2E /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		63F4510B26E964170018BC2E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		63F4510D26E964470018BC2E /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		63F4510F26E9651C0018BC2E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63F4511126E965290018BC2E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		63F4511326E965550018BC2E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		63F4511526E965840018BC2E /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		63F4511726E965AC0018BC2E /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		63F4511926E965D50018BC2E /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +215,12 @@
 				63F4510626E963920018BC2E /* Onboarding */,
 				63F4510B26E964170018BC2E /* PostViewController.swift */,
 				63F4510D26E964470018BC2E /* EditProfileViewController.swift */,
+				63F4510F26E9651C0018BC2E /* SettingsViewController.swift */,
+				63F4511126E965290018BC2E /* ListViewController.swift */,
+				63F4511326E965550018BC2E /* SearchViewController.swift */,
+				63F4511526E965840018BC2E /* SearchResultViewController.swift */,
+				63F4511726E965AC0018BC2E /* PostEditorViewController.swift */,
+				63F4511926E965D50018BC2E /* PublishPostViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -348,15 +366,21 @@
 			files = (
 				63F4510E26E964470018BC2E /* EditProfileViewController.swift in Sources */,
 				63F450FD26E95DF50018BC2E /* ExploreViewController.swift in Sources */,
+				63F4511A26E965D50018BC2E /* PublishPostViewController.swift in Sources */,
 				63F450FF26E960420018BC2E /* CameraViewController.swift in Sources */,
 				6328032726E74F690053F05C /* HomeViewController.swift in Sources */,
 				63F4510A26E963DB0018BC2E /* RegistrationViewController.swift in Sources */,
+				63F4511826E965AC0018BC2E /* PostEditorViewController.swift in Sources */,
 				63F4510C26E964170018BC2E /* PostViewController.swift in Sources */,
 				63F4510126E961720018BC2E /* NotificationsViewController.swift in Sources */,
+				63F4511626E965840018BC2E /* SearchResultViewController.swift in Sources */,
 				63F4510826E963B00018BC2E /* LoginViewController.swift in Sources */,
+				63F4511426E965550018BC2E /* SearchViewController.swift in Sources */,
 				6328032326E74F690053F05C /* AppDelegate.swift in Sources */,
 				63F4510326E961A70018BC2E /* CitizenViewController.swift in Sources */,
 				6328032526E74F690053F05C /* SceneDelegate.swift in Sources */,
+				63F4511226E965290018BC2E /* ListViewController.swift in Sources */,
+				63F4511026E9651C0018BC2E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
