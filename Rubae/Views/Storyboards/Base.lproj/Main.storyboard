@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wcq-b6-jHi">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -143,11 +143,11 @@
             </objects>
             <point key="canvasLocation" x="-268" y="773"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="apS-Qu-SpI">
             <objects>
                 <navigationController id="zIg-cf-7UA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="zh6-ZZ-S04"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="zh6-ZZ-S04"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ehg-aM-J8F">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -160,11 +160,11 @@
             </objects>
             <point key="canvasLocation" x="481" y="773"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="0qv-gw-PN5">
             <objects>
                 <navigationController id="i7S-fa-HG7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="amN-Mo-B6n"/>
+                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="amN-Mo-B6n"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Dg-e5-vgg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -177,11 +177,11 @@
             </objects>
             <point key="canvasLocation" x="1225" y="773"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="gR4-yu-pnb">
             <objects>
                 <navigationController id="MWe-QH-fQo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="IrF-uH-cq2"/>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="IrF-uH-cq2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CnQ-la-tvx">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -196,8 +196,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
