@@ -15,15 +15,23 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="Mx2-uP-pgG" kind="relationship" relationship="viewControllers" id="D92-Re-fqU"/>
+                        <segue destination="C35-0t-PXw" kind="relationship" relationship="viewControllers" id="Bvf-bf-5Je"/>
+                        <segue destination="zIg-cf-7UA" kind="relationship" relationship="viewControllers" id="80B-PD-74t"/>
+                        <segue destination="i7S-fa-HG7" kind="relationship" relationship="viewControllers" id="KXI-vI-gwH"/>
+                        <segue destination="MWe-QH-fQo" kind="relationship" relationship="viewControllers" id="YfK-ID-Ted"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0LA-Ha-f80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="481" y="80"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="0LH-c7-Acg">
             <objects>
                 <navigationController id="Mx2-uP-pgG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="UVC-Ti-km5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ekL-Ol-2er">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -33,10 +41,11 @@
             </objects>
             <point key="canvasLocation" x="-1009" y="773"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="v8X-tx-Y90">
             <objects>
                 <navigationController id="C35-0t-PXw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oLs-T8-Cf5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UCY-m8-lOc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -46,10 +55,11 @@
             </objects>
             <point key="canvasLocation" x="-268" y="773"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="apS-Qu-SpI">
             <objects>
                 <navigationController id="zIg-cf-7UA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zh6-ZZ-S04"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ehg-aM-J8F">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -59,10 +69,11 @@
             </objects>
             <point key="canvasLocation" x="481" y="773"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="0qv-gw-PN5">
             <objects>
                 <navigationController id="i7S-fa-HG7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="amN-Mo-B6n"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Dg-e5-vgg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -72,10 +83,11 @@
             </objects>
             <point key="canvasLocation" x="1225" y="773"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="gR4-yu-pnb">
             <objects>
                 <navigationController id="MWe-QH-fQo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="IrF-uH-cq2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CnQ-la-tvx">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
