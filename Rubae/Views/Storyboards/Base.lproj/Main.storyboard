@@ -38,21 +38,25 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="mjl-Dj-gIM" kind="relationship" relationship="rootViewController" id="jC1-56-JBP"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WtZ-Mz-K67" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1009" y="773"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="RjD-IC-89x">
             <objects>
-                <viewController id="mjl-Dj-gIM" sceneMemberID="viewController">
+                <viewController id="mjl-Dj-gIM" customClass="HomeViewController" customModule="Rubae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BwF-mr-G96">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Vs8-dZ-2bJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZYM-SH-di1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3t-B2-sCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,6 +72,7 @@
                         <viewLayoutGuide key="safeArea" id="cWM-gS-D7a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WAF-qj-4Mi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ii1-wb-0p1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,6 +88,7 @@
                         <viewLayoutGuide key="safeArea" id="5cW-9f-D8L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZVY-Dc-gOO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51a-JK-WiM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,6 +104,7 @@
                         <viewLayoutGuide key="safeArea" id="c4S-Bi-7jA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ibQ-v0-45o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KId-Dr-nfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +120,7 @@
                         <viewLayoutGuide key="safeArea" id="voq-nA-UbI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Pcp-TD-xmo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLk-pp-hvn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,6 +135,9 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="GJm-To-ezh" kind="relationship" relationship="rootViewController" id="MmQ-JG-LW9"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ba-fr-P6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,6 +152,9 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="66c-E8-Apf" kind="relationship" relationship="rootViewController" id="Avu-Dk-NdG"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzZ-rU-x50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -155,6 +169,9 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="MJh-Rt-hdD" kind="relationship" relationship="rootViewController" id="7jj-y3-m1H"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eba-eM-0X0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,6 +186,9 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="rNr-5k-ulM" kind="relationship" relationship="rootViewController" id="0CS-2X-irq"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56K-sl-Ec7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
