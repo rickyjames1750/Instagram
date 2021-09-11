@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098177399AFC1E69D35BB8AB /* Pods_Rubae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B330FBA1D6B3D4A29FB6147E /* Pods_Rubae.framework */; };
 		6328032326E74F690053F05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328032226E74F690053F05C /* AppDelegate.swift */; };
 		6328032526E74F690053F05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328032426E74F690053F05C /* SceneDelegate.swift */; };
 		6328032726E74F690053F05C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6328032626E74F690053F05C /* HomeViewController.swift */; };
@@ -50,7 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6328031F26E74F690053F05C /* Rubae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Rubae.app; path = "/Users/rickysparks/Desktop/Rubae/build/Debug-iphoneos/Rubae.app"; sourceTree = "<absolute>"; };
+		5E2BFF18258B4DD723857B19 /* Pods-Rubae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rubae.release.xcconfig"; path = "Target Support Files/Pods-Rubae/Pods-Rubae.release.xcconfig"; sourceTree = "<group>"; };
+		6328031F26E74F690053F05C /* Rubae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6328032226E74F690053F05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6328032426E74F690053F05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6328032626E74F690053F05C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +60,10 @@
 		6328032B26E74F6B0053F05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6328032E26E74F6B0053F05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6328033026E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6328033526E74F6B0053F05C /* RubaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RubaeTests.xctest; path = "/Users/rickysparks/Desktop/Rubae/build/Debug-iphoneos/RubaeTests.xctest"; sourceTree = "<absolute>"; };
+		6328033526E74F6B0053F05C /* RubaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6328033926E74F6B0053F05C /* RubaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubaeTests.swift; sourceTree = "<group>"; };
 		6328033B26E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6328034026E74F6B0053F05C /* RubaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RubaeUITests.xctest; path = "/Users/rickysparks/Desktop/Rubae/build/Debug-iphoneos/RubaeUITests.xctest"; sourceTree = "<absolute>"; };
+		6328034026E74F6B0053F05C /* RubaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6328034426E74F6B0053F05C /* RubaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubaeUITests.swift; sourceTree = "<group>"; };
 		6328034626E74F6B0053F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F450FC26E95DF50018BC2E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,8 @@
 		63F4511726E965AC0018BC2E /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		63F4511926E965D50018BC2E /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		63F4511B26E9EF5C0018BC2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B330FBA1D6B3D4A29FB6147E /* Pods_Rubae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rubae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB5BF73852E071C15DE32A3 /* Pods-Rubae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rubae.debug.xcconfig"; path = "Target Support Files/Pods-Rubae/Pods-Rubae.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098177399AFC1E69D35BB8AB /* Pods_Rubae.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +111,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C28B41967FF8CB529C4A718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B330FBA1D6B3D4A29FB6147E /* Pods_Rubae.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6328031626E74F680053F05C = {
 			isa = PBXGroup;
 			children = (
 				6328032126E74F690053F05C /* Rubae */,
 				6328033826E74F6B0053F05C /* RubaeTests */,
 				6328034326E74F6B0053F05C /* RubaeUITests */,
+				6328032026E74F690053F05C /* Products */,
+				682E8254F87C2AFBB3824D40 /* Pods */,
+				1C28B41967FF8CB529C4A718 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		6328032026E74F690053F05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6328031F26E74F690053F05C /* Rubae.app */,
+				6328033526E74F6B0053F05C /* RubaeTests.xctest */,
+				6328034026E74F6B0053F05C /* RubaeUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6328032126E74F690053F05C /* Rubae */ = {
@@ -226,6 +252,16 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		682E8254F87C2AFBB3824D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5BF73852E071C15DE32A3 /* Pods-Rubae.debug.xcconfig */,
+				5E2BFF18258B4DD723857B19 /* Pods-Rubae.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,11 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6328034926E74F6B0053F05C /* Build configuration list for PBXNativeTarget "Rubae" */;
 			buildPhases = (
-				1B69691E39427AC6071ACF2B /* [CP] Check Pods Manifest.lock */,
+				90320DFEF72D9DD4CDD398C1 /* [CP] Check Pods Manifest.lock */,
 				6328031B26E74F690053F05C /* Sources */,
 				6328031C26E74F690053F05C /* Frameworks */,
 				6328031D26E74F690053F05C /* Resources */,
-				B1E392CF6BE4ABBEE1B90037 /* [CP] Embed Pods Frameworks */,
+				54F0430CE72382EEEEA40AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,7 +351,7 @@
 				Base,
 			);
 			mainGroup = 6328031626E74F680053F05C;
-			productRefGroup = 6328031626E74F680053F05C;
+			productRefGroup = 6328032026E74F690053F05C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -355,7 +391,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B69691E39427AC6071ACF2B /* [CP] Check Pods Manifest.lock */ = {
+		54F0430CE72382EEEEA40AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90320DFEF72D9DD4CDD398C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,23 +428,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1E392CF6BE4ABBEE1B90037 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rubae/Pods-Rubae-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -590,6 +626,7 @@
 		};
 		6328034A26E74F6B0053F05C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB5BF73852E071C15DE32A3 /* Pods-Rubae.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -609,6 +646,7 @@
 		};
 		6328034B26E74F6B0053F05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2BFF18258B4DD723857B19 /* Pods-Rubae.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
