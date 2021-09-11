@@ -1,3 +1,3 @@
 # Rubae
-A public Social Media App to test featrures on a secondary private github social app for good in the works.
+A new era of human governance.
 Project CaliforniaX
